@@ -7,25 +7,36 @@
     <title>About Me</title>
 </head>
 <body>
-    <header> <h1>About Me</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header> 
+        <h1>ABOUT ME</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-            <center><a href="https://alvanguyen.myportfolio.com/" target="_blank"> <img src="/image/Logo 2_@.gif" alt="Alva Nguyen's Logo" width="600"></a></center>
-            <center><figcaption><em>Phúc is my name, but so is Alva?</em></figcaption></center>
+        <!-- Centered Logo and Caption -->
+        <div class="center-content">
+            <a href="https://alvanguyen.myportfolio.com/" target="_blank">
+                <img src="/image/Logo 2_@.gif" alt="Alva Nguyen's Logo" class="logo">
+            </a>
+            <figcaption>Phúc is my name, but so is Alva</figcaption>
+        </div>
+
+        <!-- Content Wrapper Box -->
+        <div class="about-container">
             <h2>Who am I?</h2>
-            <p>Phúc is my name, but so is Alva. I am a full-time creative polymath + part-time philosopher.Currently, I am a junior pursuing dual degrees in Information Science and Advertising Creative at Michigan State University. My desire? To transform impactful ideas into impressive works with the most effective, efficient, and agile approach. </p> 
+            <p>Alva = A full-time creative polymath + part-time philosopher.</p>
+            <p>Currently, I am a junior pursuing dual degrees in Information Science and Advertising Creative at Michigan State University. My desire? To transform impactful ideas into impressive works with the most effective, efficient, and agile approach.</p> 
             <p>Or, in short, to 'maximize the minimalism.'</p>
             <p>Growing up in Hồ Chí Minh City, Vietnam, my production philosophy is fertilized by blending multimedia to express unique narratives. As a versatile storyteller, I explore writing, dancing, researching, and designing. In quiet moments, I cherish reading novels on rainy days.</p>
-            <h2>Those are the classicals I highly recommend</h2>
-            <table border="1" cellpadding="10" cellspacing="0">
+        
+            <h2>Those are the classics I highly recommend</h2>
+            <table class="book-table">
                 <tr>
                     <th>Title</th>
                     <th>Author</th>
@@ -63,13 +74,15 @@
                     <td>Historical Fiction</td>
                 </tr>
             </table>
+        
             <h2>My Other Favorite Activities</h2>
-            <ul>
+            <ul class="favorite-activities">
                 <li>Dance</li>
                 <li>Origami</li>
                 <li>Exercise</li>
                 <li>Thinking</li>
             </ul>
+        </div>
     </main>
 </body>
 </html>
